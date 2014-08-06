@@ -1,0 +1,2 @@
+brackets-image-inline-css
+=========================
