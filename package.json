@@ -7,6 +7,6 @@
     "author": "Vin Rosa <vinliangx@gmail.com> (https://github.com/vinliangx)",
     "license": "MIT",
     "engines": {
-        "brackets": "<=0.42.0"
+        "brackets": ">=0.41.0"
     }
 }
