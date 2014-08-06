@@ -1,5 +1,5 @@
 {
-    "name": "com.vinrosa.base64image.insertimage",
+    "name": "brackets-image-inline-css",
     "title": "Inline Image CSS",
     "description": "Small tool to convert url images references in css to inline base64!",
     "homepage": "https://github.com/vinliangx/brackets-image-inline-css",
