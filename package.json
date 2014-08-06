@@ -1,0 +1,12 @@
+{
+    "name": "com.vinrosa.base64image.insertimage",
+    "title": "Inline Image in CSS",
+    "description": "Small tool to convert url images references in css to inline base64!",
+    "homepage": "https://github.com/vinliangx",
+    "version": "0.0.1",
+    "author": "Vin Rosa <vinliangx@gmail.com> (http://www.vinrosa.com)",
+    "license": "MIT",
+    "engines": {
+        "brackets": "<=0.42.0"
+    }
+}
