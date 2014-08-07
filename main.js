@@ -37,6 +37,9 @@ define(function (require, exports, module) {
     }
     
     function resolvePath(image){
+        if (/^(f|ht)tps?:\/\//i.test(image)) {
+            return image;
+        }
         var document = brackets.getModule("editor/EditorManager").getFocusedEditor().document;
         // Path of Assuming CSS document 
         var path = FileUtils.getDirectoryPath(document.file.fullPath) + image;
@@ -57,7 +60,7 @@ define(function (require, exports, module) {
         }
     }
     var VR_BASE64_IMAGE_COMMAND_ID = "com.vinrosa.base64image.insertimage";
-    CommandManager.register("Image 2 inline CSS", VR_BASE64_IMAGE_COMMAND_ID, extractImageFile);
+    CommandManager.register("Use Data Uri", VR_BASE64_IMAGE_COMMAND_ID, extractImageFile);
     var contextMenu = Menus.getContextMenu(Menus.ContextMenuIds.EDITOR_MENU);
     contextMenu.addMenuItem(VR_BASE64_IMAGE_COMMAND_ID);
 });
