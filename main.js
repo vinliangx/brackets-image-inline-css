@@ -14,7 +14,6 @@ define(function (require, exports, module) {
         FileUtils = brackets.getModule("file/FileUtils"),
         EditorManager = brackets.getModule("editor/EditorManager");
 
-    // Function to run when the menu item is clicked
     function fileToInlineBase64(file, regex) {
         useBase64ForImageUrl(file, function (data) {
             var editor = EditorManager.getFocusedEditor();
@@ -96,14 +95,3 @@ define(function (require, exports, module) {
     var contextMenu = Menus.getContextMenu(Menus.ContextMenuIds.EDITOR_MENU);
     contextMenu.addMenuItem(VR_BASE64_IMAGE_COMMAND_ID);
 });
-
-
-/*
-
-background:url(icon.png) rgba();
-url(http://localhost/thepalace/img/logo.png);
-
-<img src="icon.png" alt="sup">
-<img src="icon.png">
-
-*/

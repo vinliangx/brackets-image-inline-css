@@ -3,7 +3,7 @@
     "title": "Inline Image CSS",
     "description": "Small tool to convert url images references in css to data-Uri.",
     "homepage": "https://github.com/vinliangx/brackets-image-inline-css",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "Vin Rosa <vinliangx@gmail.com> (https://github.com/vinliangx)",
     "license": "MIT",
     "engines": {
