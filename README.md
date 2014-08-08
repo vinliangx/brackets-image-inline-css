@@ -1,10 +1,13 @@
-Brackets - Image Inline CSS
+Brackets - Image Inline CSS/HTML
 =========================
-Convert any image to base64 encoded inline in CSS file or Style Tag! [Brackets Image Inline CSS](https://github.com/vinliangx/brackets-image-inline-css)
-
+Convert any image to base64 encoded inline in HTML or CSS file!
+<ul>
+<li>Convert CSS <pre>url(file.png)</pre> to <pre>url(data:image/png;base64...)</pre></li>
+<li>HTML Image Tags <pre>&lt;img src="file.png"&gt;</pre> to <pre>&lt;img src="data:image/png;base64,..."&gt;</pre></li>
+</ul>
 
 Screenshots
-======
+===========
 
 ### STEP 1
 ![HTML](screenshots/1.png)
