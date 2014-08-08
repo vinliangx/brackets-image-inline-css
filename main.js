@@ -38,7 +38,7 @@ define(function (require, exports, module) {
             var ctx = canvas.getContext("2d"),
                 data = null;
             ctx.drawImage(this, 0, 0);
-            data = canvas.toDataURL("image/jpg");
+            data = canvas.toDataURL();
             callback(data);
         };
     }
